@@ -1,0 +1,1000 @@
+body{
+    display: block;
+    margin: 0;
+
+}
+/* block 1 */
+
+.block1{
+    position: relative;
+    overflow: hidden;
+}
+
+h2{
+    color: #5856CB;
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+.unionfirst{
+    position: absolute;
+    width: 10vw;
+    animation: flyzont1 2s ease-in-out infinite;
+}
+@keyframes flyzont1{
+    0%{ left: 110%;}
+    100%{ left: -10%;}
+}
+.recfirst{
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* block 2 */
+
+.block2{
+    position: relative;
+    margin-top: -0.3vw;
+    overflow: hidden;
+}
+.big{
+    width: 100vw;
+    overflow: hidden;
+}
+h1{
+    position: absolute;
+    color: #FFF;
+    font-family: "Halvar Breitschrift";
+    font-size: 31.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -35px;
+    margin-top: -7.9vw;
+    animation: myh1 10s linear infinite;
+    
+    }
+    
+    @keyframes myh1{
+        0%{ left: -100%;}
+        50%{ left: 100%;}
+        100%{ left: -100%;}
+    }
+    h1:hover{
+        animation-play-state: paused;
+    }
+    
+    /* block 3 */
+
+.block3{
+    position: relative;
+    display: flex;
+    margin-top: -0.3vw;
+}
+.letaydiv{
+    width: 33.3vw;
+    overflow: hidden;
+}
+.letay{
+    font-size: 9vw;
+    animation: letayt 2s linear infinite;
+}
+@keyframes letayt{
+    0%{ transform: translateX(30%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(30%);}
+}
+.uniontwo{
+    position: absolute;
+    width: 10vw;
+    animation: flyzont2 2s ease-in-out infinite;
+}
+@keyframes flyzont2{
+    0%{ left: 100%;}
+    100%{ left: 100%;}
+}
+
+.rec3{
+    width: 66.6vw;
+}
+.four{
+   
+    position: relative;
+    
+}
+
+.fourall{
+    position: absolute;
+    width: 33.3vw;
+}
+.bl4{
+    width: 33.3vw;
+    
+}
+.z1{
+    position: absolute;
+    width: 6vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+  .z1:hover {
+    -webkit-transform: rotate(360deg); 
+            transform: rotate(360deg); 
+  }
+.z2{
+    position: absolute;
+    width: 6vw;
+    margin-top: 2vw;
+    margin-left: 22vw;
+    -webkit-transition: -webkit-transformq .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.z2:hover:hover {
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+}
+.z3{
+    position: absolute;
+    width: 6vw;
+    margin-top: 13vw;
+    margin-left: 5vw;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.z3:hover {
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+}
+
+.z4{
+    position: absolute;
+    width: 6vw;
+    margin-top: 13vw;
+    margin-left: 22vw;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.z4:hover {
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+}
+
+/* block 4 */
+
+.block4{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-top: -0.3vw;
+}
+.about{
+    position: absolute;
+    width: 100%;
+    margin-left: 34vw;
+    color: #FFF;
+ font-family: "Halvar Breitschrift";
+ font-size: 2vw;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+    
+}
+.visheall{
+    position: relative;
+}
+.vishe{
+    position: absolute;
+    z-index: 10;
+    width: 31.5vw;
+    font-size: 9vw;
+}
+
+.vishe1{
+    position: absolute;
+    z-index: 10;
+    font-size: 9vw;
+}
+.orangeimg{
+    position: relative;
+    width: 33.3vw;
+    height: 20.8vw;
+}
+
+.gradientimg{
+    position: relative;
+    width: 33.3vw;
+
+}
+/* block 5 */
+
+.block5{
+    position: relative;
+    margin-top: -11vw;
+
+}
+.bud{
+    position: relative;
+}
+.budtext{
+    margin-left: 3vw;
+    font-size: 9vw;
+    
+}
+.ctrelki{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.ctrelkiimg{
+    position: absolute;
+    display: flex;
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 1.5vw;
+}
+.lyche{
+    position: relative;
+    overflow: hidden;
+    margin-left: 68vw;
+    font-size: 9vw;
+}
+.lychetext{
+    font-size: 9vw;
+    animation: letayt 2s linear infinite;
+}
+@keyframes letayt{
+    0%{ transform: translateX(30%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(30%);}
+}
+
+.gifumb{
+    position: relative;
+    display: flex;
+    margin-top: -10%;
+    width: 30vw;
+    height: 31.5vw;
+}
+
+.setka{
+    position: relative;
+    display: flex;
+    width: 30vw;
+    height: 30.5vw;
+    margin-left: 33.6vw;
+    margin-top: -21%;
+}
+
+.setkagif{
+    margin-top: 0vw
+}
+.ruchki{
+    position: relative;
+    display: flex;
+    width: 19vw;
+    height: 21vw;
+    margin-left: 66.2vw;
+    margin-top: -30.5%;
+}
+
+.flyone{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flyrightimg{
+    position: relative;
+    display: flex;
+    width: 33.6vw;
+    height: 9.5vw;
+}
+.flyright{
+    position: relative;
+    display: flex;
+    width: 33.6vw;
+    height: 9.5vw;
+    overflow: hidden;
+}
+.flyleft{
+    position: relative;
+    display: flex;
+    width: 33.6vw;
+    height: 9.5vw;
+    overflow: hidden;   
+}
+.flyleftimg{
+    position: relative;
+    display: flex;
+    width: 33.6vw;
+    height: 9.5vw;
+
+}
+
+.unionright{
+ position: absolute;
+ height: 16vh;
+z-index: 100;
+animation: flyzont2 1.5s ease-in-out infinite;
+}
+@keyframes flyzont2{
+    0%{ left:-10%;}
+    100%{ left: 100%;}
+}
+
+.unionleft{
+    position: absolute;
+ height: 16vh;
+z-index: 100;
+animation: flyzont3 1.5s ease-in-out infinite;
+}
+@keyframes flyzont3{
+    0%{ left:100%;}
+    100%{ left: -10%;}
+}
+
+/* block6 */
+
+.block6{
+    position: relative;
+    display: flex;
+}
+
+.rightblock{
+    position: relative;
+    width: 34vw;
+}
+.vio{
+    width: 33.3vw;
+    height: 21vw;
+    overflow: hidden;
+}
+.ruchkiall{
+    position: absolute;
+    display: flex;
+}
+.r1{
+    width: 7vw;
+    margin-left: 3vw;
+}
+.r2{
+    width: 7vw;
+    margin-left: 3vw;
+}
+.r3{
+    width: 7vw;
+    margin-left: 3vw;
+}
+
+.r1{
+    transition: transform 250ms, opacity 400ms;}
+.r1:hover {
+    transform: translateY(7vw); }
+
+    .r2{
+        transition: transform 250ms, opacity 400ms;}
+    .r2:hover {
+        transform: translateY(7vw); }
+        .r3{
+            transition: transform 250ms, opacity 400ms;}
+        .r3:hover {
+            transform: translateY(7vw); }
+
+.centerblock{
+    position: relative;
+}
+.oran{
+    width: 33.3vw;
+    height: 21vw;
+}
+.orange{
+    position: relative;
+}
+.about3{
+ position: absolute;
+ z-index: 10;
+ color: #FFF;
+ font-family: "Halvar Breitschrift";
+ font-size: 2vw;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+.rightblock{
+    position: relative;
+}
+.leftblock{
+    position: relative;
+    height: 100%;
+}
+.sixall{
+    position: absolute;
+    
+}
+.six{
+    width: 33.7vw;
+    height: 21vw;  
+}
+.column1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3vw;
+    margin-left: 4vw;
+}
+.column2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-left: 4vw;
+}
+.u1{
+    width: 6vw;
+}
+.u2{
+    width: 6vw; 
+    margin-left: 4vw;
+}
+.u3{
+    width: 6vw; 
+    margin-left: 4vw;
+}
+.u4{
+    width: 6vw; 
+}
+.u5{
+    width: 6vw;
+    margin-left: 4vw;
+}
+.u6{
+    width: 6vw; 
+    margin-left: 4vw;
+}
+
+.u1 { transition: all .2s ease-in-out; }
+.u1:hover { transform: scale(1.2); }
+
+.u2 { transition: all .2s ease-in-out; }
+.u2:hover { transform: scale(1.2); }
+
+.u3 { transition: all .2s ease-in-out; }
+.u3:hover { transform: scale(1.2); }
+
+.u4 { transition: all .2s ease-in-out; }
+.u4:hover { transform: scale(1.2); }
+
+.u5 { transition: all .2s ease-in-out; }
+.u5:hover { transform: scale(1.2); }
+
+.u6 { transition: all .2s ease-in-out; }
+.u6:hover { transform: scale(1.2); }
+
+/* block7 */
+
+.block7{
+    position: relative;
+    display: flex;
+    margin-top: -0.3vw;
+}
+
+.zigzag{
+    position: relative;
+    width: 66.6vw;
+}
+.zigzagimg{
+    width: 66.6vw;
+    
+}
+.year{
+    position: relative;
+    overflow: hidden;
+    width: 33vw;
+}
+
+.text2023{
+    position: relative;
+    font-size: 9vw;
+    animation: yeartext 1s ease-in-out infinite;
+}
+@keyframes yeartext {
+0%{ right:-10%;}
+100%{ left: 100%;}
+}
+
+/* block8 */
+
+.block8{
+    position: relative;
+    display: flex;
+    margin-top: -0.3vw;
+}
+
+.roundall{
+    position: relative;
+}
+.round{
+    position: absolute;
+    width: 28vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    animation: round1 4s ease-in-out infinite;
+}
+@keyframes round1 {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
+
+.round:hover{
+    animation-play-state: paused;
+}
+
+.roundgradient{
+    width: 33.3vw;
+}
+.centerverh{
+    display: flex;
+    flex-direction: column ;
+    width: 33.3vw;
+    margin-left: -0.8vw;
+    line-height: 1vw;
+    margin-top: 1.8vw;
+}
+.verh1{
+    font-size: 9vw;
+    margin-top: -4.1vw;
+}
+
+.verh1{
+    -webkit-transition: color 0.5s; 
+        transition: color 1s; 
+    }
+    .verh1:hover {
+        color: #f81436;
+    }
+.verh2{
+    font-size: 9vw;
+    margin-top: -4.2vw;
+    -webkit-transition: color 0.5s; 
+        transition: color 1s;
+}
+.verh2:hover {
+    color: #f83e14;
+}
+.verh3{
+    font-size: 9vw;
+    margin-top: -4.2vw;
+    -webkit-transition: color 0.5s; 
+    transition: color 1s;
+
+}
+.verh3:hover {
+    color: #f89d14;
+}
+.verh4{
+    font-size: 9vw;
+    margin-top: -4.2vw;
+    -webkit-transition: color 0.5s; 
+    transition: color 1s;
+}
+.verh4:hover {
+    color: #bbddfb;
+}
+.verh5{
+    font-size: 9vw;
+    margin-top: -4.2vw;
+    -webkit-transition: color 0.5s; 
+    transition: color 1s;
+}
+.verh5:hover {
+    color: #f8142f;
+}
+
+.linesall{
+    position: relative;
+}
+.lines{
+position: absolute;
+width: 100%;
+
+}
+.linesback{
+    position: relative;
+    width: 34vw;
+    margin-left: 0.7vw;
+}
+
+/* block9 */
+
+.block9{
+    position: relative;
+    display: flex;
+    margin-top: -2.3vw;
+}
+.down{
+    position: relative;
+    width: 20vw;
+    
+}
+
+.uniondown{
+    position: absolute;
+    z-index: 10;
+    margin-top: 5vw;
+    margin-left: 3vw;
+    width: 10vw;
+}
+.recdown{
+    position: relative;
+    width: 16.7vw;
+}
+.recup{
+    position: relative;
+    width: 16.7vw;
+}
+.unionup{
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    width: 10vw;
+    z-index: 10;
+}
+.compas{
+    position: absolute;
+    width: 16vw;
+    margin-top: 2vw;
+    margin-left: 9vw;
+    
+}
+.compas { transition: all .2s ease-in-out; }
+.compas:hover { transform: scale(1.2); }
+
+.reccenter{
+    width: 33.7vw;
+}
+.nineall{
+    position: relative;
+    overflow: hidden;
+    width: 45.7vw;
+    margin-top: -9.5vw;
+}
+.group31{
+    position: relative;
+    width: 30vw;
+    margin-top: 1vw;
+    animation: group31run 2s linear infinite;
+}
+@keyframes group31run{
+    0%{ transform: translateX(30%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(30%);}
+    
+}
+.group32{
+    width: 30vw; 
+    margin-top: 1vw;
+    animation: group32run 2s linear infinite;
+}
+@keyframes group32run{
+    0%{ transform: translateX(-30%);}
+    50%{ transform:  translateX(30%);}
+    100%{ transform: translateX(-30%);}
+    
+}
+.group33{
+    width: 30vw;
+    margin-top: 1vw;
+    animation: group33run 2s linear infinite;
+}
+@keyframes group33run{
+    0%{ transform: translateX(30%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(30%);}
+    
+}
+
+/* block10 */
+
+.block10{
+    position: relative;
+    
+}
+.nebo{
+    position: relative;
+    margin-left: 7vw;
+    font-size: 9vw;background: linear-gradient(
+        to right,
+        #655cab 20%,
+        #bdebff 30%,
+        #ffba0b 70%,
+        #ff0026 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* block11 */
+
+.block11{
+    position: relative;
+    display: flex;
+}
+.handall{
+    position: relative;
+    overflow: hidden;
+}
+.arrowup{
+position: absolute;
+width: 6vw;
+margin-left: 4vw;
+z-index: 10;
+margin-top: 3vw;
+animation: arrowup1 1.9s ease-in-out infinite;
+}
+@keyframes arrowup1{
+    0%{ transform: translateY(20%);}
+    50%{ transform:  translateY(0%);}
+    100%{ transform: translateY(20%);}
+}
+.arrowdown{
+    position: absolute;
+    z-index: 10;
+    width: 42vw;
+    margin-left: -14vw;
+    margin-top: 15vw;
+     animation: arrowdown1 1.9s ease-in-out infinite;
+}
+@keyframes arrowdown1{
+    0%{ transform: translateX(0%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(0%);}
+}
+.hand{
+    position: relative;
+    width: 33.3vw;
+}
+.classikiall{
+    position: relative;
+}
+.classiki{
+    position: relative;
+    width: 33.3vw;
+}
+.downall{
+    position: relative;
+    width:16.65vw ;
+}
+.undown{
+    position: absolute;
+    z-index: 10;
+    width: 8vw;
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+.pladown{
+  width:16.65vw ; 
+  overflow: hidden; 
+}
+
+.upall{
+    position: relative;
+    width:16.65vw ;
+    overflow: hidden; 
+}
+.unup{
+    position: absolute;
+    z-index: 10;
+    width: 8vw;
+    margin-top: 1vw;
+    margin-left: 5vw;
+}
+.plaup{
+    position: relative;
+    width:16.65vw ; 
+    z-index: -10;  
+}
+
+/* block 12 */
+
+.block12{
+    position: relative;
+    display: flex;
+}
+.letiall{
+    position: relative;
+    overflow: hidden;
+    width: 66.6vw; 
+    font-size: 9vw;
+    
+}
+.leti1{
+    position: relative;
+    margin-left: 4vw;
+    margin-top: -1vw;
+    animation: leti11 2.5s linear infinite;
+}
+@keyframes leti11{
+    0%{ transform: translateX(30%);}
+    50%{ transform:  translateX(-30%);} 
+    100%{ transform: translateX(30%);}
+}
+.circle{
+    position: relative;
+    width: 10vw;
+    
+}
+.circleimg{
+    width: 34.1vw;
+    margin-top: -21.1vw;
+}
+
+/* block 13 */
+
+.block13{
+    position: relative;
+    display: flex; 
+    margin-top: -3vw;
+}
+.threestrelki{
+    position: relative;
+    overflow: hidden;
+}
+.leftimg{
+width: 33.3vw;
+overflow: hidden;
+}
+.arrow30{
+ position: absolute;
+ width: 33.3vw;
+ margin-left: 10vw;
+ margin-top: 2vw;
+ animation: arrow30 1.9s ease-in-out infinite;
+}
+@keyframes arrow30{
+    0%{ transform: translateX(50%);}
+    50%{ transform:  translateX(0%);}
+    100%{ transform: translateX(50%);}
+}
+
+.arrow31{
+ position: absolute;
+ width: 33.3vw;
+ margin-left: -10vw;
+ margin-top: 8vw;
+ animation: arrow31 1.9s ease-in-out infinite;
+}
+@keyframes arrow31{
+    0%{ transform: translateX(-50%);}
+    50%{ transform:  translateX(0%);}
+    100%{ transform: translateX(-50%);}
+}
+    
+
+.arrow32{
+    position: absolute;
+    width: 33.3vw;
+    margin-left: 10vw;
+    margin-top: 14vw;
+    animation: arrow32 1.9s ease-in-out infinite;
+}
+@keyframes arrow32{
+    0%{ transform: translateX(50%);}
+    50%{ transform:  translateX(0%);}
+    100%{ transform: translateX(50%);}
+}
+
+.centerimg{
+    overflow: hidden;
+    width: 33.3vw;
+}
+.twostrelki{
+    position: relative;
+    overflow: hidden;
+}
+.arrow33{
+ position: absolute;
+ margin-left: 3vw;
+ margin-top: 2vw;
+ width: 5vw;
+ animation: arrowup1 1.9s ease-in-out infinite;
+}
+@keyframes arrowup1{
+    0%{ transform: translateY(20%);}
+    50%{ transform:  translateY(0%);}
+    100%{ transform: translateY(20%);}
+}
+    
+.arrow34{
+ position: absolute;
+ width: 5vw;
+ margin-top: 6vw;
+ margin-left: 10vw;
+ animation: arrowup1 1.9s ease-in-out infinite;
+}
+@keyframes arrowup1{
+    0%{ transform: translateY(20%);}
+    50%{ transform:  translateY(0%);}
+    100%{ transform: translateY(20%);}
+}
+
+.rightimg{
+    width: 33.3vw;
+}
+.circle1{
+    position: absolute;
+    width: 9vw;
+    margin-left: 1vw;
+    margin-top: 6vw;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.circle1:hover {
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+}
+
+
+.circle2{
+    position: absolute;
+    width: 9vw;
+    margin-left: 12vw;
+    margin-top: 6vw;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.circle2:hover {
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+}
+    
+
+.circle3{
+    position: absolute;
+    width: 9vw;
+    margin-left: 23vw;
+    margin-top: 6vw;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.circle3:hover {
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+}
+
+/* block14 */
+
+.block14{
+    position: relative;
+    display: flex;
+    width: 100vw;
+}
+
+.elina{
+    font-size: 3vw;
+    color: #5856CB;
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
