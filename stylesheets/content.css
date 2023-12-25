@@ -12,7 +12,7 @@ body{
 
 h2{
     color: #5856CB;
-    font-family: "Halvar Breitschrift";
+    font-family: "HalvarBreitschriftRegular";
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -45,7 +45,7 @@ h2{
 h1{
     position: absolute;
     color: #FFF;
-    font-family: "Halvar Breitschrift";
+    font-family: "HalvarBreitschriftRegular";
     font-size: 31.5vw;
     font-style: normal;
     font-weight: 400;
