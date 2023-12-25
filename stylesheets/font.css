@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "HalvarBreitschriftRegular";
-    src: url("../font/HalvarBreitschriftRegular.ttf") format("truetype");
+    font-family: 'HalvarBreitschriftRegular';
+    src: url('../font/HalvarBreitschriftRegular.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     }
